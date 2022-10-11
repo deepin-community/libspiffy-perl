@@ -1,0 +1,137 @@
+libspiffy-perl (0.46-1) unstable; urgency=medium
+
+  [ gregor herrmann ]
+  * New upstream release 0.42.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-Browser URL to cgit web frontend
+
+  [ gregor herrmann ]
+  * Add debian/upstream/metadata
+  * Imported upstream version 0.46
+
+  [ Salvatore Bonaccorso ]
+  * debian/control: Use HTTPS transport protocol for Vcs-Git URI
+
+  [ gregor herrmann ]
+  * debian/copyright: change Copyright-Format 1.0 URL to HTTPS.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-* headers for switch to salsa.debian.org
+
+  [ Xavier Guimard ]
+  * Declare compliance with policy 4.2.1
+  * Enable autopkgtest
+  * Bump debhelper compat to 10
+
+ -- Xavier Guimard <x.guimard@free.fr>  Mon, 27 Aug 2018 21:26:08 +0200
+
+libspiffy-perl (0.41-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 08 Aug 2014 01:47:10 +0200
+
+libspiffy-perl (0.36-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Update upstream email address in debian/copyright.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 27 Jul 2014 16:27:00 +0200
+
+libspiffy-perl (0.35-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Install new contributing file.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 25 Jul 2014 21:31:30 +0200
+
+libspiffy-perl (0.34-1) unstable; urgency=low
+
+  [ Salvatore Bonaccorso ]
+  * Change Vcs-Git to canonical URI (git://anonscm.debian.org)
+  * Change search.cpan.org based URIs to metacpan.org based URIs
+
+  [ gregor herrmann ]
+  * Strip trailing slash from metacpan URLs.
+
+  * New upstream release.
+  * debian/copyright: update copyright years, removed info about third-
+    party files.
+  * Declare compliance with Debian Policy 3.9.5.
+
+ -- gregor herrmann <gregoa@debian.org>  Thu, 19 Jun 2014 18:40:47 +0200
+
+libspiffy-perl (0.31-1) unstable; urgency=low
+
+  [ gregor herrmann ]
+  * Remove Florian Ragwitz from Uploaders (closes: #523173).
+
+  [ Nathan Handler ]
+  * debian/watch: Update to ignore development releases.
+
+  [ Ansgar Burchardt ]
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ gregor herrmann ]
+  * debian/control: update {versioned,alternative} (build) dependencies.
+
+  [ Xavier Guimard ]
+  * Imported Upstream version 0.31
+  * Bump Standards-Version to 3.9.4
+  * Use debhelper 8
+  * Update debian/copyright to format 1.0
+  * Update source format to 3.0 quilt
+  * Use "dh %" in debian/rules
+  * remove libfilter-perl dependency
+
+ -- Xavier Guimard <x.guimard@free.fr>  Sat, 17 Nov 2012 21:30:41 +0100
+
+libspiffy-perl (0.30-1) unstable; urgency=low
+
+  * Take over for the Debian Perl Group with maintainer's permission
+    (http://lists.debian.org/debian-perl/2008/06/msg00039.html)
+  * debian/control: Added: Vcs-Svn field (source stanza); Vcs-Browser
+    field (source stanza); Homepage field (source stanza). Changed:
+    Maintainer set to Debian Perl Group <pkg-perl-
+    maintainers@lists.alioth.debian.org> (was: Florian Ragwitz
+    <rafl@debian.org>); Florian Ragwitz <rafl@debian.org> moved to
+    Uploaders.
+  * Add debian/watch.
+
+  * New upstream release.
+  * debian/copyright: add upstream source location; copy author/copyright
+    information verbatim from upstream README.
+  * Add /me to Uploaders.
+  * Set Standards-Version to 3.8.0 (no changes).
+  * Set debhelper compatibility level to 5.
+  * Refresh debian/rules, no functional changes. Don't install README (text
+    version of the POD documentation).
+  * Convert broken odieresis chars in manpage (that come from UTF-8 encoded
+    module) to plain old *roff sequence (closes: #441828).
+
+ -- gregor herrmann <gregoa@debian.org>  Tue, 17 Jun 2008 18:14:05 +0200
+
+libspiffy-perl (0.29-1.1) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * debian/rules: Don't FTBFS when perl is smart enough not to create
+    empty dirs. (Closes: #467959)
+
+ -- Marc 'HE' Brockschmidt <he@debian.org>  Sat, 05 Apr 2008 19:08:56 +0200
+
+libspiffy-perl (0.29-1) unstable; urgency=low
+
+  * New maintainer with acknowledgement from the old maintainer.
+  * New upstream release (Closes: #328431).
+  * Cleaned up debian/rules a bit.
+  * Enabled tests.
+  * Bumped up Standards-Version.
+
+ -- Florian Ragwitz <rafl@debian.org>  Tue, 24 Jan 2006 08:37:19 +0100
+
+libspiffy-perl (0.21-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Nick Phillips <nwp@debian.org>  Fri, 17 Dec 2004 20:38:09 +1300
